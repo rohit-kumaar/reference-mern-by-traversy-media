@@ -6,11 +6,11 @@ const createGoal = asyncHandler(async (req, res) => {
     throw new Error("Please add a text field");
   }
 
-  res.status(200).json({ message: "Set goal" });
+  res.status(200).json({ message: "Create goal" });
 });
 
 const readGoals = asyncHandler(async (req, res) => {
-  res.status(200).json({ message: "Get goals" });
+  res.status(200).json({ message: "Read goals" });
 });
 
 const updateGoal = asyncHandler(async (req, res) => {
