@@ -11,7 +11,7 @@
   "author": "Rohit Kumar",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^2.0.16"
+    "nodemon": "^2.0.19"
   },
   "dependencies": {
     "colors": "^1.4.0",
